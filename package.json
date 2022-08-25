@@ -1,14 +1,13 @@
 {
   "name": "f21",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build-sass": "sass src\\style\\:dist\\",
-	"watch-sass": "nodemon --watch ./src/style/ -e scss --exec \"npm run build-sass\"",
-	"copy-html-js": "cp src\\script.js src\\index.html dist\\",
-	"watch-html-js": "nodemon --watch src/ -e html,js --exec \"npm run copy-html-js\"",
-	"live": "cd dist && live-server"
+    "watch-sass": "nodemon --watch ./src/style/ -e scss --exec \"npm run build-sass\"",
+    "copy-html-js": "cp src\\script.js src\\index.html dist\\",
+    "watch-html-js": "nodemon --watch src/ -e html,js --exec \"npm run copy-html-js\"",
+    "live": "cd dist && live-server"
   },
   "keywords": [],
   "author": "",
@@ -18,5 +17,14 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pellehakman/01-sass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Pellehakman/01-sass/issues"
+  },
+  "homepage": "https://github.com/Pellehakman/01-sass#readme",
+  "description": ""
 }

@@ -10,3 +10,32 @@ body {
 	background-color: $body-bg;
 	// background-color: var(--body-bg);
 }
+%button{
+	font-size: 20px;
+	width: 12em;
+	border-radius: 100px;
+	height: 40px;
+	transition: .2s transform;
+
+	cursor: pointer;
+	&:hover {
+		transform: scale(110%)
+	}
+
+}
+.cookie-container{
+	display: flex;
+	justify-content: center
+
+}
+
+.call-to-action{
+	@extend %button;
+	
+}
+
+.ghost{
+	@extend %button;
+background: none;
+
+}
